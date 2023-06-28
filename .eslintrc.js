@@ -152,11 +152,7 @@ module.exports = {
         parser: "@typescript-eslint/parser",
       },
       rules: {
-        "no-unused-vars": "off",
         "no-undef": "off",
-
-        // typescript-eslint
-        "@typescript-eslint/no-unused-vars": "off",
       },
     },
     {
