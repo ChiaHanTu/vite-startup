@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": false,
+    "css.validate": false,
+    "scss.validate": false,
+    "eslint.validate": ["javascript"],
+    "editor.codeActionsOnSave" : {
+      "source.fixAll.eslint" : true,
+      "source.fixAll.stylelint": true
+    },
+    "scss.lint.unknownAtRules": "ignore",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "cSpell.words": [
+      "Vite",
+      "vite"
+    ]
+  }
+  
