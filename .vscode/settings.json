@@ -20,5 +20,8 @@
       "autofix",
       "stylelint",
       "unocss",
+      "vorms",
+      "vueuse",
+      "pinia"
     ]
   }
