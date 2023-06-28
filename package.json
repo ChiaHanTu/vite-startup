@@ -2,7 +2,6 @@
   "name": "vite-startup",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -20,11 +19,20 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier-vue": "^4.2.0",
+    "eslint-plugin-vue": "^9.15.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "postcss": "^8.4.24",
+    "prettier-plugin-tailwindcss": "^0.3.0",
     "sass": "^1.63.4",
     "stylelint": "^15.8.0",
     "stylelint-config-recommended-vue": "^1.4.0",

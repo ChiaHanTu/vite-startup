@@ -3,6 +3,7 @@
     "css.validate": false,
     "scss.validate": false,
     "eslint.validate": ["javascript"],
+    "stylelint.validate": ["scss", "vue"],
     "editor.codeActionsOnSave" : {
       "source.fixAll.eslint" : true,
       "source.fixAll.stylelint": true
@@ -11,7 +12,13 @@
     "typescript.tsdk": "node_modules/typescript/lib",
     "cSpell.words": [
       "Vite",
-      "vite"
+      "vite",
+      "tailwindcss",
+      "tanstack",
+      "linebreak",
+      "classname",
+      "autofix",
+      "stylelint",
+      "unocss",
     ]
   }
-  
