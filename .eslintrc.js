@@ -115,6 +115,9 @@ module.exports = {
         script: {
           lang: "ts",
         },
+        style: {
+          lang: "scss",
+        },
       },
     ],
 
@@ -140,9 +143,6 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-redeclare": "error",
-
-    // tailwindcss
-    "tailwindcss/no-custom-classname": "off",
   },
   overrides: [
     {
