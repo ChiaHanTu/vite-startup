@@ -33,6 +33,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "postcss": "^8.4.24",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.6",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "sass": "^1.63.4",
     "stylelint": "^15.8.0",
