@@ -1,7 +1,7 @@
 import {
   defineConfig,
   presetAttributify,
-  presetUno,
+  presetWind3,
   transformerDirectives,
 } from "unocss";
 
@@ -13,7 +13,7 @@ export default defineConfig({
     /** 屬性化模式 & 無值的屬性模式 */
     presetAttributify(),
     /** 默認預設 */
-    presetUno(),
+    presetWind3(),
   ],
   /** 自定義規則 */
   rules: [["uno-padding-20", { padding: "20px" }]],
